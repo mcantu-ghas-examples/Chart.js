@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: npm
-      - uses: dorny/paths-filter@v2
+      - uses: dorny/paths-filter@v3
         id: changes
         with:
           filters: |
